@@ -1,0 +1,8 @@
+GameProject {
+ ID "UnflipVehicles"
+ GUID "59667D12E8D31B62"
+ TITLE "Unflip Vehicles"
+ Dependencies {
+  "5614BBCCBB55ED1C" "58D0FB3206B6F859"
+ }
+}

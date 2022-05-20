@@ -1,0 +1,32 @@
+Vehicle : "{4085446E2B406849}Prefabs/Vehicles/Core/Vehicle_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_2DSightsComponent "{59669AF6F35A6F89}" {
+  }
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   m_fVehicleDestroyDamage 22624.699
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{596694CE53DAC96A}" {
+     ContextName "unflip-vehicle"
+     Position PointInfo "{596694CE6512A8A9}" {
+      Offset 0 0.9338 0
+     }
+     Radius 7
+    }
+   }
+   additionalActions {
+    SCR_UnflipVehicle "{596694CD59A6443D}" {
+     ParentContextList {
+      "unflip-vehicle"
+     }
+     UIInfo UIInfo "{59669AF5BDA09B07}" {
+      Name "Unflip Vehicle"
+     }
+     Duration 5
+    }
+   }
+  }
+ }
+}
