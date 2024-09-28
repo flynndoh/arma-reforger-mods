@@ -1,0 +1,22 @@
+GameProject {
+ ID "Auto-Kill-Last-AI"
+ GUID "62784BC1C0AE5AB1"
+ TITLE "Auto Kill Last AI"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}
