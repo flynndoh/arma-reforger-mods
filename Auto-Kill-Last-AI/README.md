@@ -21,9 +21,9 @@ Can also configure thresholds based on group size to kill more than 1 AI once a 
 
 By default the thresholds are:
 
-Group size = 0: last AI isn't auto killed
-Group size = 1: last AI isn't auto killed
-Group size = 2:	last AI isn't auto killed
+Group size = 0: last AI is NOT auto killed
+Group size = 1: last AI is NOT auto killed
+Group size = 2:	last AI is NOT auto killed
 
 Group size = 3:  last AI is auto killed
 Group size = 4:  last AI is auto killed
@@ -34,6 +34,9 @@ Group size = 8:  last AI is auto killed
 Group size = 9:  last AI is auto killed
 Group size = 10: last AI is auto killed
 Group size > 10: when 90% of group is killed, all remaining AI are auto killed
+
+Source: https://github.com/flynndoh/arma-reforger-mods/tree/main/Auto-Kill-Last-AI
+Feedback: https://github.com/flynndoh/arma-reforger-mods/issues
 ```
 
 ## Working Dir
